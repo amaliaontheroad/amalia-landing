@@ -32,6 +32,7 @@ import PackagesSection from "@/components/PackagesSection";
 import TestimonialsSection from "@/components/TestimonialsSection";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
+import WhatsAppButton from "@/components/WhatsAppButton";
 
 export default function Home() {
   return (
@@ -49,6 +50,7 @@ export default function Home() {
       <TestimonialsSection />
       <ContactSection />
       <Footer />
+      <WhatsAppButton />
     </div>
   );
 }
