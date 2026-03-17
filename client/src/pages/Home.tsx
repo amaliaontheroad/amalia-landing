@@ -19,6 +19,7 @@
    13. Footer
 */
 
+import { useAuth } from "@/_core/hooks/useAuth";
 import Navigation from "@/components/Navigation";
 import HeroSection from "@/components/HeroSection";
 import BrandTicker from "@/components/BrandTicker";
@@ -34,6 +35,10 @@ import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
 
 export default function Home() {
+  // The userAuth hooks provides authentication state
+  // To implement login/logout functionality, simply call logout() or redirect to getLoginUrl()
+  let { user, loading, error, isAuthenticated, logout } = useAuth();
+
   return (
     <div className="min-h-screen bg-[#0d1117]">
       <Navigation />

@@ -1,9 +1,10 @@
-/* ContactSection — Dark Forest Atelier
+/* Contact section with form
    Contact form with ambient background image
    Fields: name, location, package selection, message */
 
 import { useEffect, useRef, useState } from "react";
 import { Send, Instagram, Mail, MapPin, CheckCircle } from "lucide-react";
+import { trpc } from "@/lib/trpc";
 
 const HERO_BG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663444989792/QxD6nrJP7Yqr5cMzapJd8e/service_photography-knou6jeT4Q6mfZz6S3nV3t.webp";
 
@@ -11,7 +12,6 @@ export default function ContactSection() {
   const ref = useRef<HTMLDivElement>(null);
   const [visible, setVisible] = useState(false);
   const [submitted, setSubmitted] = useState(false);
-  const [loading, setLoading] = useState(false);
   const [form, setForm] = useState({
     name: "",
     email: "",
@@ -19,6 +19,8 @@ export default function ContactSection() {
     package: "",
     message: "",
   });
+
+  const submitMutation = trpc.contact.submit.useMutation();
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -35,11 +37,19 @@ export default function ContactSection() {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    setLoading(true);
-    // Simulate form submission
-    await new Promise(r => setTimeout(r, 1500));
-    setLoading(false);
-    setSubmitted(true);
+    try {
+      await submitMutation.mutateAsync({
+        name: form.name,
+        email: form.email,
+        location: form.location || undefined,
+        package: form.package || undefined,
+        message: form.message || undefined,
+      });
+      setSubmitted(true);
+      setForm({ name: "", email: "", location: "", package: "", message: "" });
+    } catch (error) {
+      console.error("Failed to submit form:", error);
+    }
   };
 
   return (
@@ -228,10 +238,10 @@ export default function ContactSection() {
                 {/* Submit */}
                 <button
                   type="submit"
-                  disabled={loading}
+                  disabled={submitMutation.isPending}
                   className="btn-amber w-full flex items-center justify-center gap-3"
                 >
-                  {loading ? (
+                  {submitMutation.isPending ? (
                     <>
                       <div className="w-4 h-4 border-2 border-[#0d1117]/30 border-t-[#0d1117] rounded-full animate-spin" />
                       Se trimite...
