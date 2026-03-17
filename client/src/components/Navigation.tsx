@@ -44,8 +44,8 @@ export default function Navigation() {
         <div className="hidden md:flex items-center gap-8">
           {[
             { label: "Povestea mea", id: "about" },
+            { label: "Servicii", id: "services" },
             { label: "Pachete", id: "packages" },
-            { label: "Recenzii", id: "testimonials" },
             { label: "Contact", id: "contact" },
           ].map((item) => (
             <button
@@ -84,8 +84,8 @@ export default function Navigation() {
         <div className="bg-[#0d1117]/98 border-t border-[#4a90d9]/10 px-6 py-4 flex flex-col gap-4">
           {[
             { label: "Povestea mea", id: "about" },
+            { label: "Servicii", id: "services" },
             { label: "Pachete", id: "packages" },
-            { label: "Recenzii", id: "testimonials" },
             { label: "Contact", id: "contact" },
           ].map((item) => (
             <button
