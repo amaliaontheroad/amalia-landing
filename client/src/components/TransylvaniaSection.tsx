@@ -40,7 +40,7 @@ export default function TransylvaniaSection() {
         <h2 className="font-display text-3xl md:text-5xl lg:text-6xl text-[#f5ede0] leading-tight max-w-3xl mx-auto">
           Fiecare locație are
           <br />
-          <em className="text-[#c8842a] not-italic">o poveste care merită spusă.</em>
+          <em className="text-[#4a90d9] not-italic">o poveste care merită spusă.</em>
         </h2>
         <p className="text-[#f5ede0]/60 text-base md:text-lg mt-6 max-w-xl mx-auto font-light">
           Nu fotografiez locuri. Fotografiez emoții, atmosfere și momentele care fac oamenii să spună: <em>"Vreau să fiu acolo."</em>

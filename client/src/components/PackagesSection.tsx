@@ -91,7 +91,7 @@ export default function PackagesSection() {
     <section id="packages" className="py-24 md:py-32 bg-[#0a0f0d] relative overflow-hidden">
       {/* Background glow */}
       <div className="absolute inset-0 opacity-[0.03]"
-        style={{background: "radial-gradient(ellipse at 50% 50%, #c8842a, transparent 70%)"}}
+        style={{background: "radial-gradient(ellipse at 50% 50%, #4a90d9, transparent 70%)"}}
       />
 
       <div className="container" ref={ref}>
@@ -127,16 +127,16 @@ export default function PackagesSection() {
                     alt={pkg.name}
                     className="w-full h-full object-cover transition-transform duration-700 hover:scale-105"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-[#1a2318] via-transparent to-transparent" />
+                  <div className="absolute inset-0 bg-gradient-to-t from-[#111c2a] via-transparent to-transparent" />
                   
                   {/* Package number */}
-                  <div className="absolute top-4 left-4 font-display text-5xl font-bold text-[#c8842a]/20 leading-none select-none">
+                  <div className="absolute top-4 left-4 font-display text-5xl font-bold text-[#4a90d9]/20 leading-none select-none">
                     {pkg.number}
                   </div>
 
                   {/* Badge */}
                   {pkg.badge && (
-                    <div className="absolute top-4 right-4 bg-[#c8842a] text-[#0d1117] text-[10px] font-bold tracking-[0.15em] uppercase px-3 py-1 rounded-sm flex items-center gap-1">
+                    <div className="absolute top-4 right-4 bg-[#4a90d9] text-[#0d1117] text-[10px] font-bold tracking-[0.15em] uppercase px-3 py-1 rounded-sm flex items-center gap-1">
                       <Star size={10} fill="currentColor" />
                       {pkg.badge}
                     </div>
@@ -147,12 +147,12 @@ export default function PackagesSection() {
                 <div className="p-6">
                   {/* Icon + name */}
                   <div className="flex items-start gap-3 mb-4">
-                    <div className="w-8 h-8 rounded-sm bg-[#c8842a]/10 flex items-center justify-center flex-shrink-0 mt-0.5">
-                      <Icon size={16} className="text-[#c8842a]" />
+                    <div className="w-8 h-8 rounded-sm bg-[#4a90d9]/10 flex items-center justify-center flex-shrink-0 mt-0.5">
+                      <Icon size={16} className="text-[#4a90d9]" />
                     </div>
                     <div>
                       <h3 className="font-display text-lg text-[#f5ede0] leading-tight">{pkg.name}</h3>
-                      <p className="text-[#c8842a] text-xs tracking-[0.15em] uppercase mt-0.5">{pkg.subtitle}</p>
+                      <p className="text-[#4a90d9] text-xs tracking-[0.15em] uppercase mt-0.5">{pkg.subtitle}</p>
                     </div>
                   </div>
 
@@ -164,14 +164,14 @@ export default function PackagesSection() {
                   <ul className="space-y-2.5 mb-6">
                     {pkg.items.map((item, j) => (
                       <li key={j} className="flex items-start gap-2.5">
-                        <Check size={13} className="text-[#c8842a] flex-shrink-0 mt-0.5" />
+                        <Check size={13} className="text-[#4a90d9] flex-shrink-0 mt-0.5" />
                         <span className="text-[#f5ede0]/70 text-sm leading-relaxed">{item}</span>
                       </li>
                     ))}
                   </ul>
 
                   {/* Divider */}
-                  <div className="h-px bg-gradient-to-r from-transparent via-[#c8842a]/20 to-transparent mb-5" />
+                  <div className="h-px bg-gradient-to-r from-transparent via-[#4a90d9]/20 to-transparent mb-5" />
 
                   {/* Time */}
                   <div className="flex items-center gap-2 mb-5">
@@ -182,7 +182,7 @@ export default function PackagesSection() {
                   {/* Price + CTA */}
                   <div className="flex items-end justify-between">
                     <div>
-                      <div className="font-display text-3xl text-[#c8842a]">{pkg.price}</div>
+                      <div className="font-display text-3xl text-[#4a90d9]">{pkg.price}</div>
                       <div className="text-[#6b7c5e] text-xs mt-0.5">{pkg.priceNote}</div>
                     </div>
                     <button
@@ -206,7 +206,7 @@ export default function PackagesSection() {
         <p className={`text-center text-[#6b7c5e] text-sm mt-10 font-light transition-all duration-700 delay-500 ${visible ? "opacity-100" : "opacity-0"}`}>
           Toate pachetele includ drepturi de utilizare a conținutului pe platformele sociale.
           <br />
-          <span className="text-[#c8842a]/70">Prețurile sunt negociabile pentru colaborări pe termen lung.</span>
+          <span className="text-[#4a90d9]/70">Prețurile sunt negociabile pentru colaborări pe termen lung.</span>
         </p>
       </div>
     </section>

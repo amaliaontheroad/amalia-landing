@@ -134,11 +134,11 @@ export default function TestimonialsSection() {
           {stats.map((stat, i) => {
             const Icon = stat.icon;
             return (
-              <div key={i} className="bg-[#1a2318]/50 border border-[#c8842a]/10 rounded-sm p-4 text-center">
-                <Icon size={16} className="text-[#c8842a] mx-auto mb-2" />
+              <div key={i} className="bg-[#111c2a]/50 border border-[#4a90d9]/10 rounded-sm p-4 text-center">
+                <Icon size={16} className="text-[#4a90d9] mx-auto mb-2" />
                 <div className="font-display text-2xl text-[#f5ede0]">{stat.value}</div>
                 <div className="text-[#6b7c5e] text-xs mt-1">{stat.label}</div>
-                <div className="text-[#c8842a]/50 text-xs mt-0.5">{stat.post}</div>
+                <div className="text-[#4a90d9]/50 text-xs mt-0.5">{stat.post}</div>
               </div>
             );
           })}
@@ -155,7 +155,7 @@ export default function TestimonialsSection() {
               style={{ transitionDelay: `${i * 80}ms` }}
             >
               {/* Quote icon */}
-              <Quote size={16} className="text-[#c8842a]/40 mb-3" />
+              <Quote size={16} className="text-[#4a90d9]/40 mb-3" />
 
               {/* Comment text */}
               <p className="text-[#f5ede0]/80 text-sm leading-relaxed mb-4 font-light">
@@ -188,11 +188,11 @@ export default function TestimonialsSection() {
             href="https://www.instagram.com/amaliaontheroad/"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-3 text-[#c8842a]/70 hover:text-[#c8842a] transition-colors text-sm group"
+            className="inline-flex items-center gap-3 text-[#4a90d9]/70 hover:text-[#4a90d9] transition-colors text-sm group"
           >
             <Instagram size={16} />
             <span>Vezi toate postările pe Instagram</span>
-            <span className="w-0 group-hover:w-6 h-px bg-[#c8842a] transition-all duration-300" />
+            <span className="w-0 group-hover:w-6 h-px bg-[#4a90d9] transition-all duration-300" />
           </a>
         </div>
       </div>

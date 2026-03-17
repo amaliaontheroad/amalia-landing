@@ -64,7 +64,7 @@ export default function ContactSection() {
             <h2 className="font-display text-3xl md:text-5xl text-[#f5ede0] mt-4 mb-6">
               Hai să construim
               <br />
-              <em className="text-[#c8842a] not-italic">povestea ta vizuală</em>
+              <em className="text-[#4a90d9] not-italic">povestea ta vizuală</em>
             </h2>
             <p className="text-[#f5ede0]/70 text-base leading-relaxed font-light mb-8">
               Fie că ai o cabană A-frame în Carpați, o pensiune cu suflet în Transylvania sau un Tiny House care merită să fie descoperit — sunt aici să transform locul tău într-o destinație pe care oamenii o visează.
@@ -78,17 +78,17 @@ export default function ContactSection() {
                 rel="noopener noreferrer"
                 className="flex items-center gap-4 group"
               >
-                <div className="w-10 h-10 rounded-sm bg-[#c8842a]/10 border border-[#c8842a]/20 flex items-center justify-center group-hover:bg-[#c8842a]/20 transition-colors">
-                  <Instagram size={16} className="text-[#c8842a]" />
+                <div className="w-10 h-10 rounded-sm bg-[#4a90d9]/10 border border-[#4a90d9]/20 flex items-center justify-center group-hover:bg-[#4a90d9]/20 transition-colors">
+                  <Instagram size={16} className="text-[#4a90d9]" />
                 </div>
                 <div>
                   <div className="text-[#f5ede0]/80 text-sm">Instagram</div>
-                  <div className="text-[#c8842a] text-sm group-hover:text-[#e09a40] transition-colors">@amaliaontheroad</div>
+                  <div className="text-[#4a90d9] text-sm group-hover:text-[#6aaee8] transition-colors">@amaliaontheroad</div>
                 </div>
               </a>
               <div className="flex items-center gap-4">
-                <div className="w-10 h-10 rounded-sm bg-[#c8842a]/10 border border-[#c8842a]/20 flex items-center justify-center">
-                  <Mail size={16} className="text-[#c8842a]" />
+                <div className="w-10 h-10 rounded-sm bg-[#4a90d9]/10 border border-[#4a90d9]/20 flex items-center justify-center">
+                  <Mail size={16} className="text-[#4a90d9]" />
                 </div>
                 <div>
                   <div className="text-[#f5ede0]/80 text-sm">Email</div>
@@ -96,8 +96,8 @@ export default function ContactSection() {
                 </div>
               </div>
               <div className="flex items-center gap-4">
-                <div className="w-10 h-10 rounded-sm bg-[#c8842a]/10 border border-[#c8842a]/20 flex items-center justify-center">
-                  <MapPin size={16} className="text-[#c8842a]" />
+                <div className="w-10 h-10 rounded-sm bg-[#4a90d9]/10 border border-[#4a90d9]/20 flex items-center justify-center">
+                  <MapPin size={16} className="text-[#4a90d9]" />
                 </div>
                 <div>
                   <div className="text-[#f5ede0]/80 text-sm">Locație</div>
@@ -107,7 +107,7 @@ export default function ContactSection() {
             </div>
 
             {/* Quote */}
-            <div className="border-l-2 border-[#c8842a]/40 pl-5">
+            <div className="border-l-2 border-[#4a90d9]/40 pl-5">
               <p className="font-script text-[#d4748a] text-lg leading-relaxed">
                 "Nu vând fotografii. Vând rezervări directe."
               </p>
@@ -118,8 +118,8 @@ export default function ContactSection() {
           {/* Right: Form */}
           <div className={`transition-all duration-700 delay-300 ${visible ? "opacity-100 translate-x-0" : "opacity-0 translate-x-12"}`}>
             {submitted ? (
-              <div className="bg-[#1a2318]/80 border border-[#c8842a]/20 rounded-sm p-10 text-center backdrop-blur-sm">
-                <CheckCircle size={48} className="text-[#c8842a] mx-auto mb-4" />
+              <div className="bg-[#111c2a]/80 border border-[#4a90d9]/20 rounded-sm p-10 text-center backdrop-blur-sm">
+                <CheckCircle size={48} className="text-[#4a90d9] mx-auto mb-4" />
                 <h3 className="font-display text-2xl text-[#f5ede0] mb-3">Mesaj trimis!</h3>
                 <p className="text-[#f5ede0]/70 text-sm leading-relaxed font-light">
                   Mulțumesc pentru interes! Îți voi răspunde în maxim 24 de ore.
@@ -130,7 +130,7 @@ export default function ContactSection() {
                   href="https://www.instagram.com/amaliaontheroad/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 mt-6 text-[#c8842a] hover:text-[#e09a40] transition-colors text-sm"
+                  className="inline-flex items-center gap-2 mt-6 text-[#4a90d9] hover:text-[#6aaee8] transition-colors text-sm"
                 >
                   <Instagram size={16} />
                   @amaliaontheroad
@@ -139,7 +139,7 @@ export default function ContactSection() {
             ) : (
               <form
                 onSubmit={handleSubmit}
-                className="bg-[#1a2318]/60 border border-[#c8842a]/15 rounded-sm p-6 md:p-8 backdrop-blur-sm space-y-5"
+                className="bg-[#111c2a]/60 border border-[#4a90d9]/15 rounded-sm p-6 md:p-8 backdrop-blur-sm space-y-5"
               >
                 <h3 className="font-display text-xl text-[#f5ede0] mb-2">Rezervă o sesiune de branding</h3>
                 <p className="text-[#6b7c5e] text-sm mb-5">Completează formularul și te voi contacta în 24 de ore.</p>
@@ -156,7 +156,7 @@ export default function ContactSection() {
                     onChange={handleChange}
                     required
                     placeholder="ex: Ion Popescu"
-                    className="w-full bg-[#0d1117]/60 border border-[#c8842a]/15 rounded-sm px-4 py-3 text-[#f5ede0] text-sm placeholder-[#6b7c5e] focus:outline-none focus:border-[#c8842a]/50 transition-colors"
+                    className="w-full bg-[#0d1117]/60 border border-[#4a90d9]/15 rounded-sm px-4 py-3 text-[#f5ede0] text-sm placeholder-[#6b7c5e] focus:outline-none focus:border-[#4a90d9]/50 transition-colors"
                   />
                 </div>
 
@@ -172,7 +172,7 @@ export default function ContactSection() {
                     onChange={handleChange}
                     required
                     placeholder="email@exemplu.ro"
-                    className="w-full bg-[#0d1117]/60 border border-[#c8842a]/15 rounded-sm px-4 py-3 text-[#f5ede0] text-sm placeholder-[#6b7c5e] focus:outline-none focus:border-[#c8842a]/50 transition-colors"
+                    className="w-full bg-[#0d1117]/60 border border-[#4a90d9]/15 rounded-sm px-4 py-3 text-[#f5ede0] text-sm placeholder-[#6b7c5e] focus:outline-none focus:border-[#4a90d9]/50 transition-colors"
                   />
                 </div>
 
@@ -187,7 +187,7 @@ export default function ContactSection() {
                     value={form.location}
                     onChange={handleChange}
                     placeholder="ex: Cabana Nordland, Apuseni"
-                    className="w-full bg-[#0d1117]/60 border border-[#c8842a]/15 rounded-sm px-4 py-3 text-[#f5ede0] text-sm placeholder-[#6b7c5e] focus:outline-none focus:border-[#c8842a]/50 transition-colors"
+                    className="w-full bg-[#0d1117]/60 border border-[#4a90d9]/15 rounded-sm px-4 py-3 text-[#f5ede0] text-sm placeholder-[#6b7c5e] focus:outline-none focus:border-[#4a90d9]/50 transition-colors"
                   />
                 </div>
 
@@ -200,7 +200,7 @@ export default function ContactSection() {
                     name="package"
                     value={form.package}
                     onChange={handleChange}
-                    className="w-full bg-[#0d1117]/60 border border-[#c8842a]/15 rounded-sm px-4 py-3 text-[#f5ede0] text-sm focus:outline-none focus:border-[#c8842a]/50 transition-colors appearance-none"
+                    className="w-full bg-[#0d1117]/60 border border-[#4a90d9]/15 rounded-sm px-4 py-3 text-[#f5ede0] text-sm focus:outline-none focus:border-[#4a90d9]/50 transition-colors appearance-none"
                   >
                     <option value="" className="bg-[#0d1117] text-[#6b7c5e]">Alege un pachet...</option>
                     <option value="refresh" className="bg-[#0d1117]">The Refresh — 200€ + transport</option>
@@ -221,7 +221,7 @@ export default function ContactSection() {
                     onChange={handleChange}
                     rows={4}
                     placeholder="Descrie-mi locația ta, ce vrei să obții și orice detalii relevante..."
-                    className="w-full bg-[#0d1117]/60 border border-[#c8842a]/15 rounded-sm px-4 py-3 text-[#f5ede0] text-sm placeholder-[#6b7c5e] focus:outline-none focus:border-[#c8842a]/50 transition-colors resize-none"
+                    className="w-full bg-[#0d1117]/60 border border-[#4a90d9]/15 rounded-sm px-4 py-3 text-[#f5ede0] text-sm placeholder-[#6b7c5e] focus:outline-none focus:border-[#4a90d9]/50 transition-colors resize-none"
                   />
                 </div>
 
@@ -250,7 +250,7 @@ export default function ContactSection() {
                     href="https://www.instagram.com/amaliaontheroad/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-[#c8842a] hover:text-[#e09a40] transition-colors"
+                    className="text-[#4a90d9] hover:text-[#6aaee8] transition-colors"
                   >
                     @amaliaontheroad
                   </a>

@@ -63,7 +63,7 @@ export default function HeroSection() {
         >
           Transformă locația ta
           <br />
-          <em className="text-[#c8842a] not-italic">într-o destinație dorită.</em>
+          <em className="text-[#4a90d9] not-italic">într-o destinație dorită.</em>
         </h1>
 
         {/* Subtitle */}
@@ -97,7 +97,7 @@ export default function HeroSection() {
             { value: "100%", label: "Storytelling" },
           ].map((stat) => (
             <div key={stat.label} className="text-center">
-              <div className="font-display text-2xl md:text-3xl text-[#c8842a]">{stat.value}</div>
+              <div className="font-display text-2xl md:text-3xl text-[#4a90d9]">{stat.value}</div>
               <div className="text-[#6b7c5e] text-xs tracking-[0.2em] uppercase mt-1">{stat.label}</div>
             </div>
           ))}
@@ -107,7 +107,7 @@ export default function HeroSection() {
       {/* Scroll indicator */}
       <button
         onClick={scrollToAbout}
-        className="absolute bottom-8 left-1/2 -translate-x-1/2 text-[#c8842a]/60 hover:text-[#c8842a] transition-colors animate-bounce"
+          className="absolute bottom-8 left-1/2 -translate-x-1/2 text-[#4a90d9]/60 hover:text-[#4a90d9] transition-colors animate-bounce"
         aria-label="Scroll down"
       >
         <ChevronDown size={28} />

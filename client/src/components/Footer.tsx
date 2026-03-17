@@ -9,12 +9,12 @@ export default function Footer() {
   };
 
   return (
-    <footer className="bg-[#080d0b] border-t border-[#c8842a]/10 py-12">
+    <footer className="bg-[#080d0b] border-t border-[#4a90d9]/10 py-12">
       <div className="container">
         <div className="grid md:grid-cols-3 gap-8 mb-10">
           {/* Brand */}
           <div>
-            <span className="font-script text-[#c8842a] text-2xl block mb-2">Amalia Elena</span>
+            <span className="font-script text-[#4a90d9] text-2xl block mb-2">Amalia Elena</span>
             <p className="text-[#6b7c5e] text-xs tracking-[0.2em] uppercase mb-4">
               Visual Branding & Content
             </p>
@@ -37,7 +37,7 @@ export default function Footer() {
                 <button
                   key={item.id}
                   onClick={() => scrollTo(item.id)}
-                  className="block text-[#f5ede0]/50 hover:text-[#c8842a] text-sm transition-colors"
+                  className="block text-[#f5ede0]/50 hover:text-[#4a90d9] text-sm transition-colors"
                 >
                   {item.label}
                 </button>
@@ -52,7 +52,7 @@ export default function Footer() {
               href="https://www.instagram.com/amaliaontheroad/"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-3 text-[#f5ede0]/50 hover:text-[#c8842a] transition-colors group"
+              className="inline-flex items-center gap-3 text-[#f5ede0]/50 hover:text-[#4a90d9] transition-colors group"
             >
               <Instagram size={18} />
               <div>
@@ -69,7 +69,7 @@ export default function Footer() {
         </div>
 
         {/* Bottom bar */}
-        <div className="border-t border-[#c8842a]/10 pt-6 flex flex-col md:flex-row items-center justify-between gap-3">
+        <div className="border-t border-[#4a90d9]/10 pt-6 flex flex-col md:flex-row items-center justify-between gap-3">
           <p className="text-[#6b7c5e] text-xs">
             © 2026 Amalia Elena · @amaliaontheroad · Toate drepturile rezervate
           </p>
