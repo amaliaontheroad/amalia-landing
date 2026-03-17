@@ -67,7 +67,7 @@ export default function ContactSection() {
               <em className="text-[#4a90d9] not-italic">povestea ta vizuală</em>
             </h2>
             <p className="text-[#f5ede0]/70 text-base leading-relaxed font-light mb-8">
-              Fie că ai o cabană A-frame în Carpați, o pensiune cu suflet în Transylvania sau un Tiny House care merită să fie descoperit — sunt aici să transform locul tău într-o destinație pe care oamenii o visează.
+              De la liniștea unui A-frame ascuns în Carpați, la autenticitatea unei pensiuni cu suflet din Transilvania sau minimalismul unui Tiny House — misiunea mea este să îtransform spațiul dintr-o simplă locație, într-o destinație pe care oaspeții o visează înainte de a o vizita.
             </p>
 
             {/* Contact details */}
@@ -92,7 +92,7 @@ export default function ContactSection() {
                 </div>
                 <div>
                   <div className="text-[#f5ede0]/80 text-sm">Email</div>
-                  <div className="text-[#f5ede0]/60 text-sm">contact@amaliaontheroad.ro</div>
+                  <div className="text-[#f5ede0]/60 text-sm">amalia@innovtour.ro</div>
                 </div>
               </div>
               <div className="flex items-center gap-4">
@@ -101,7 +101,7 @@ export default function ContactSection() {
                 </div>
                 <div>
                   <div className="text-[#f5ede0]/80 text-sm">Locație</div>
-                  <div className="text-[#f5ede0]/60 text-sm">România · Disponibilă la nivel național</div>
+                  <div className="text-[#f5ede0]/60 text-sm">România · Disponibilă la nivel național și internațional</div>
                 </div>
               </div>
             </div>
@@ -109,7 +109,7 @@ export default function ContactSection() {
             {/* Quote */}
             <div className="border-l-2 border-[#4a90d9]/40 pl-5">
               <p className="font-script text-[#d4748a] text-lg leading-relaxed">
-                "Nu vând fotografii. Vând rezervări directe."
+                "Oamenii nu rezervă o cameră, ei rezervă o poveste în care vor să trăiască."
               </p>
               <p className="text-[#6b7c5e] text-xs mt-2 tracking-wide">— Amalia Elena</p>
             </div>
@@ -141,7 +141,7 @@ export default function ContactSection() {
                 onSubmit={handleSubmit}
                 className="bg-[#111c2a]/60 border border-[#4a90d9]/15 rounded-sm p-6 md:p-8 backdrop-blur-sm space-y-5"
               >
-                <h3 className="font-display text-xl text-[#f5ede0] mb-2">Rezervă o sesiune de branding</h3>
+                <h3 className="font-display text-xl text-[#f5ede0] mb-2">Hai să punem locația ta în poveste</h3>
                 <p className="text-[#6b7c5e] text-sm mb-5">Completează formularul și te voi contacta în 24 de ore.</p>
 
                 {/* Name */}

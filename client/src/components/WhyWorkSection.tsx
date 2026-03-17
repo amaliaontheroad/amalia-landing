@@ -15,29 +15,29 @@ const reasons = [
   {
     icon: Camera,
     title: "Știu ce funcționează vizual",
-    desc: "Cu 2+ ani de experiență în Travel UGC și Graphic Design, știu exact ce tip de conținut transformă scroll-ul în rezervare directă.",
+    desc: "Pentru că 'frumosul' nu este suficient; e nevoie de strategie. Nu sunt aici pentru o simplă postare, ci pentru a extrage esența locației tale și a o traduce într-un limbaj vizual premium.",
   },
   {
     icon: TrendingUp,
-    title: "Gândesc ca un strateg, nu ca un influencer",
-    desc: "Nu creez conținut frumos de dragul esteticii. Fiecare cadru, fiecare caption, fiecare reel are un scop: să convingă un client să rezerve.",
+    title: "Vin cu background de agenție",
+    desc: "Expertiza mea s-a clădit în parteneriate precum Hotelslibrary și proiecte ca Innovtour. Fiecare cadru este creat cu mentalitate de strateg de marketing, nu de influencer.",
   },
   {
     icon: Users,
     title: "Comunitate autentică de 5.2K+",
-    desc: "Urmăritorii mei sunt pasionați de travel autentic — exact publicul țintă pentru cabane, pensiuni și Tiny Houses din România.",
+    desc: "Urmăritorii mei sunt pasionați de travel autentic — exact publicul țintă pentru cabane, pensiuni și Tiny Houses din România și peste hotare.",
   },
   {
     icon: Zap,
-    title: "Livrare rapidă, fără bătăi de cap",
-    desc: "Conținut livrat în 5-7 zile lucrătoare. Fără întârzieri, fără revizii interminabile. Profesionalism de agenție, cu sufletul unui creator.",
+    title: "Eu investesc, nu cer",
+    desc: "Nu cer o noapte de cazare, eu investesc talentul meu în viitorul vizual al afacerii tale. Vin cu propriul setup de styling, asigurând că fiecare cadru este o invitație deschisă către oaspeții tăi.",
   },
 ];
 
 const stats = [
   { value: "5.2K+", label: "Urmăritori Instagram" },
-  { value: "156+", label: "Postări publicate" },
-  { value: "3+", label: "Țări acoperite" },
+  { value: "50+", label: "Clienți fericiți" },
+  { value: "10+", label: "Țări vizitate" },
   { value: "100%", label: "Clienți mulțumiți" },
 ];
 

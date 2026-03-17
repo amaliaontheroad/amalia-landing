@@ -24,8 +24,7 @@ import HeroSection from "@/components/HeroSection";
 import BrandTicker from "@/components/BrandTicker";
 import AboutSection from "@/components/AboutSection";
 import WhyWorkSection from "@/components/WhyWorkSection";
-import ServicesOverview from "@/components/ServicesOverview";
-import TransylvaniaSection from "@/components/TransylvaniaSection";
+
 import ReelsSection from "@/components/ReelsSection";
 import PhotoGallery from "@/components/PhotoGallery";
 import PackagesSection from "@/components/PackagesSection";
@@ -42,8 +41,6 @@ export default function Home() {
       <BrandTicker />
       <AboutSection />
       <WhyWorkSection />
-      <ServicesOverview />
-      <TransylvaniaSection />
       <ReelsSection />
       <PhotoGallery />
       <PackagesSection />

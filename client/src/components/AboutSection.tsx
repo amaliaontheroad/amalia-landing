@@ -64,13 +64,16 @@ export default function AboutSection() {
           <div className={`transition-all duration-700 delay-400 ${visible ? "opacity-100 translate-x-0" : "opacity-0 translate-x-12"}`}>
             <p className="font-script text-[#d4748a] text-xl mb-4">Bună, sunt Amalia</p>
             <p className="text-[#f5ede0]/80 text-base md:text-lg leading-relaxed font-light mb-6">
-              Sunt creator de conținut vizual specializat în <strong className="text-[#4a90d9] font-normal">Travel UGC</strong> și Graphic Design, cu o pasiune aparte pentru locurile care au o poveste — cabane A-frame în ceață, pensiuni ascunse în Carpați, Tiny Houses care respiră autenticitate.
+              Dacă te uiți pe profilul meu, vei vedea că sunt într-o căutare continuă de „magic but architectural". Pentru mine, o locație nu este doar o sumă de coordonate GPS, ci o stare de spirit. Sunt atrasă de locurile care au un secret de spus — cabane A-frame care dispar în ceață, pensiuni ascunse unde timpul stă în loc și acele Tiny Houses care respiră autenticitate prin fiecare fibră a lemnului.
             </p>
             <p className="text-[#f5ede0]/70 text-base leading-relaxed font-light mb-6">
-              Nu sunt „încă un influencer care cere cazare". Sunt o <strong className="text-[#f5ede0] font-normal">agenție boutique de content și design</strong> — cu ochi de fotograf, minte de strateg și inimă de povestitor.
+              Vin dintr-un mix de lumi: sunt <strong className="text-[#f5ede0] font-normal">Graphic Designer cu ochi format pentru simetrie</strong> și <strong className="text-[#f5ede0] font-normal">Content Creator cu inima în drum</strong> spre următoarea destinație.
             </p>
             <p className="text-[#f5ede0]/70 text-base leading-relaxed font-light mb-8">
-              Fiecare locație pe care o vizitez devine o <em className="text-[#4a90d9]">destinație dorită</em>. Nu prin filtre artificiale, ci prin storytelling autentic care transformă vizualizările în rezervări directe.
+              Nu sunt „încă un influencer care caută o cazare". Expertiza mea s-a clădit în parteneriate precum <strong className="text-[#4a90d9] font-normal">Hotelslibrary</strong> și proiecte ca <strong className="text-[#4a90d9] font-normal">Innovtour</strong>, unde am învățat că ospitalitatea de lux înseamnă atenție la detaliul cel mai mic. Călătoriile mele prin 9 țări străine și fiecare colț de Românie m-au învățat un lucru: oamenii nu rezervă o cameră, ei rezervă o poveste în care vor să trăiască.
+            </p>
+            <p className="text-[#f5ede0]/70 text-base leading-relaxed font-light mb-8">
+              <em className="text-[#4a90d9]">Misiunea mea este să extrag acea poveste din locația ta.</em>
             </p>
 
             {/* Specializations */}
