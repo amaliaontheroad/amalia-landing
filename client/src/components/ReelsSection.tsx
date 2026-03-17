@@ -16,8 +16,8 @@ const reels = [
     id: 1,
     url: "https://www.instagram.com/reel/DNaA_tngDp2/",
     thumbnail: "https://d2xsxph8kpxj0f.cloudfront.net/310519663444989792/QxD6nrJP7Yqr5cMzapJd8e/reel1_castle_daniel_258745b7.jpeg",
-    // Use a high-quality Unsplash image as the visual background since thumbnail is low-res
-    bgImage: "https://images.unsplash.com/photo-1548013146-72479768bada?w=800&q=80",
+    // Use the real Castle Hotel Daniel image
+    bgImage: "https://d2xsxph8kpxj0f.cloudfront.net/310519663444989792/QxD6nrJP7Yqr5cMzapJd8e/Haveyoueversleptina350-year-oldTransylvaniancastleAt@castlehoteldanieltransylvania,hi_301850f5.jpg",
     title: "Castle Hotel Daniel",
     location: "Transylvania, România",
     caption: "Once upon a time… in the heart of Transylvania… A 350-year-old castle where history lives in every stone and fairytales whisper through candlelit halls.",
@@ -30,7 +30,7 @@ const reels = [
     id: 2,
     url: "https://www.instagram.com/reel/DQWjc-eDQjV/",
     thumbnail: "https://d2xsxph8kpxj0f.cloudfront.net/310519663444989792/QxD6nrJP7Yqr5cMzapJd8e/reel2_moxy_belgrade_b74f4fe6.jpeg",
-    bgImage: "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?w=800&q=80",
+    bgImage: "https://d2xsxph8kpxj0f.cloudfront.net/310519663444989792/QxD6nrJP7Yqr5cMzapJd8e/IfBelgradehadaheartbeat,you'dfeelitat@moxy.belgradeHousedinabold1970sbuilding,th_0599d5fa.jpg",
     title: "Moxy Belgrade",
     location: "Belgrad, Serbia",
     caption: "Welcome to Moxy Belgrade — where good vibes meet city lights! Bold design, cozy corners, and that playful energy that makes you never want to leave.",
