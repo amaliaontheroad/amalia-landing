@@ -6,7 +6,7 @@ export default function BehindTheScenes() {
       <div className="max-w-6xl mx-auto">
         {/* Section Header */}
         <div className="text-center mb-16">
-          <p className="text-[#4a90d9] font-dancing-script text-xl mb-2">Capitolul III</p>
+
           <h2 className="text-4xl md:text-5xl font-playfair text-white mb-4">
             Povestea din spatele obiectivului
           </h2>
@@ -21,7 +21,7 @@ export default function BehindTheScenes() {
           <div className="relative">
             <div className="aspect-square rounded-lg overflow-hidden border border-[#4a90d9]/20">
               <img
-                src="https://d2xsxph8kpxj0f.cloudfront.net/310519663444989792/QxD6nrJP7Yqr5cMzapJd8e/amaliapozasemnatura_32e7c94a.webp"
+                src="https://d2xsxph8kpxj0f.cloudfront.net/310519663444989792/QxD6nrJP7Yqr5cMzapJd8e/amaliapozasemnatura_23c06665.webp"
                 alt="Amalia Elena - Behind the scenes"
                 className="w-full h-full object-cover"
               />
