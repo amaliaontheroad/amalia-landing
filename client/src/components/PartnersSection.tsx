@@ -13,7 +13,7 @@ export default function PartnersSection() {
     {
       name: 'Innovtour',
       description: 'Travel & Tourism Solutions',
-      followers: '50K+',
+      followers: '200+',
       url: 'https://innovtour.ro/',
       logo: '✈️',
       type: 'Travel Partner'
@@ -49,7 +49,7 @@ export default function PartnersSection() {
                 </div>
                 <div className="text-right">
                   <p className="text-[#4a90d9] font-bold">{partner.followers}</p>
-                  <p className="text-xs text-gray-500">urmăritori</p>
+                  <p className="text-xs text-gray-500">proiecte</p>
                 </div>
               </div>
               <p className="text-gray-300 text-sm">{partner.description}</p>
