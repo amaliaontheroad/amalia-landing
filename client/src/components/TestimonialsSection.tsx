@@ -6,46 +6,7 @@ import { useEffect, useRef, useState } from "react";
 import { Instagram, Heart, MessageCircle, Quote } from "lucide-react";
 
 const testimonials = [
-  {
-    id: 1,
-    username: "plandedrum",
-    handle: "@plandedrum",
-    text: "Ce frumos ai descris vitraliile ❤️ Parca te transporta in timp",
-    platform: "Instagram",
-    post: "Tréguier, Bretagne",
-    avatar: "PD",
-    color: "#2d4a2d",
-  },
-  {
-    id: 2,
-    username: "crazyloveintravels",
-    handle: "@crazyloveintravels",
-    text: "Superb arată! 😍 Fotografiile tale sunt mereu de vis",
-    platform: "Instagram",
-    post: "Tréguier, Bretagne",
-    avatar: "CL",
-    color: "#3d2d1a",
-  },
-  {
-    id: 3,
-    username: "vacante_cu_volan",
-    handle: "@vacante_cu_volan",
-    text: "Vitraliile sunt de vis ❤️ Parca te transporta in timp",
-    platform: "Instagram",
-    post: "Tréguier, Bretagne",
-    avatar: "VC",
-    color: "#1a2d3d",
-  },
-  {
-    id: 4,
-    username: "dianachristinee",
-    handle: "@dianachristinee",
-    text: "Ce cadre 🥹 m-ai facut sa imi fie dor de Transfagarasan!",
-    platform: "Instagram",
-    post: "Transfăgărășan, Romania",
-    avatar: "DC",
-    color: "#2d1a2d",
-  },
+
   {
     id: 5,
     username: "flaviaezgi",
@@ -129,20 +90,7 @@ export default function TestimonialsSection() {
           </p>
         </div>
 
-        {/* Instagram stats */}
-        <div className={`grid grid-cols-2 md:grid-cols-4 gap-4 mb-12 transition-all duration-700 delay-200 ${visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}>
-          {stats.map((stat, i) => {
-            const Icon = stat.icon;
-            return (
-              <div key={i} className="bg-[#111c2a]/50 border border-[#4a90d9]/10 rounded-sm p-4 text-center">
-                <Icon size={16} className="text-[#4a90d9] mx-auto mb-2" />
-                <div className="font-display text-2xl text-[#f5ede0]">{stat.value}</div>
-                <div className="text-[#6b7c5e] text-xs mt-1">{stat.label}</div>
-                <div className="text-[#4a90d9]/50 text-xs mt-0.5">{stat.post}</div>
-              </div>
-            );
-          })}
-        </div>
+
 
         {/* Testimonials grid */}
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
