@@ -21,7 +21,7 @@ export default function BehindTheScenes() {
           <div className="relative">
             <div className="aspect-square rounded-lg overflow-hidden border border-[#4a90d9]/20">
               <img
-                src="https://d2xsxph8kpxj0f.cloudfront.net/310519663444989792/QxD6nrJP7Yqr5cMzapJd8e/amaliapozasemnatura_23c06665.webp"
+                src="https://d2xsxph8kpxj0f.cloudfront.net/310519663444989792/QxD6nrJP7Yqr5cMzapJd8e/amaliapozasemnatura_85613d8a.webp"
                 alt="Amalia Elena - Behind the scenes"
                 className="w-full h-full object-cover"
               />
