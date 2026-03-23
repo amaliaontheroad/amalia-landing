@@ -12,11 +12,11 @@ export default function PartnersSection() {
     },
     {
       name: 'Innovtour',
-      description: 'Travel & Tourism Solutions',
+      description: 'Premium hotel photography & 360° virtual tours | International hospitality projects',
       followers: '200+',
       url: 'https://innovtour.ro/',
       logo: '✈️',
-      type: 'Travel Partner'
+      type: 'Company'
     }
   ];
 
