@@ -5,7 +5,7 @@
 import { useEffect, useRef, useState } from "react";
 import { Instagram, MapPin } from "lucide-react";
 
-const PORTRAIT_URL = "https://d2xsxph8kpxj0f.cloudfront.net/310519663444989792/QxD6nrJP7Yqr5cMzapJd8e/amaliapozasemnatura_85613d8a.webp";
+const PORTRAIT_URL = "https://d2xsxph8kpxj0f.cloudfront.net/310519663444989792/QxD6nrJP7Yqr5cMzapJd8e/amalia_portrait-VJRrf8gMXbdtMJDq7Nfe4L.webp";
 
 export default function AboutSection() {
   const ref = useRef<HTMLDivElement>(null);
