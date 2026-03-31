@@ -1,14 +1,14 @@
-/* HeroSection — Dark Forest Atelier
-   Full-bleed cinematic hero with staggered text reveal
-   Background: Generated A-frame cabin in misty forest at dusk */
-
 import { useEffect, useState } from "react";
 import { ChevronDown } from "lucide-react";
+import { useLanguage } from "@/contexts/LanguageContext";
+import { translations } from "@/lib/translations";
 
 const HERO_IMAGE = "https://d2xsxph8kpxj0f.cloudfront.net/310519663444989792/QxD6nrJP7Yqr5cMzapJd8e/hero_aframe_cinematic-S9rubiqiinbaS8nxH2NLik.webp";
 
 export default function HeroSection() {
   const [visible, setVisible] = useState(false);
+  const { language } = useLanguage();
+  const t = translations[language];
 
   useEffect(() => {
     const t = setTimeout(() => setVisible(true), 100);
@@ -61,17 +61,16 @@ export default function HeroSection() {
         <h1
           className={`font-display text-4xl md:text-6xl lg:text-7xl text-[#f5ede0] leading-tight max-w-4xl mx-auto transition-all duration-700 delay-300 ${visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}
         >
-          Transformă locația ta
+          {t.hero.title}
           <br />
-          <em className="text-[#4a90d9] not-italic">într-o destinație dorită.</em>
+          <em className="text-[#4a90d9] not-italic">{t.hero.titleHighlight}</em>
         </h1>
 
         {/* Subtitle */}
         <p
           className={`mt-6 text-[#f5ede0]/70 text-base md:text-lg max-w-2xl mx-auto leading-relaxed font-light transition-all duration-700 delay-500 ${visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"}`}
         >
-          UGC Narrativ, Graphic Design și Strategie vizuală pentru cabane,
-          pensiuni și Tiny Houses care vor să atragă rezervări directe.
+          {t.hero.subtitle}
         </p>
 
         {/* CTA buttons */}
@@ -79,10 +78,10 @@ export default function HeroSection() {
           className={`mt-10 flex flex-col sm:flex-row gap-4 justify-center transition-all duration-700 delay-700 ${visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"}`}
         >
           <button onClick={scrollToPackages} className="btn-amber">
-            Vezi pachetele
+            {t.hero.cta1}
           </button>
           <button onClick={scrollToAbout} className="btn-ghost-amber">
-            Povestea mea
+            {t.hero.cta2}
           </button>
         </div>
 
@@ -91,10 +90,10 @@ export default function HeroSection() {
           className={`mt-16 flex flex-wrap justify-center gap-8 md:gap-16 transition-all duration-700 delay-1000 ${visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"}`}
         >
           {[
-            { value: "5.2K+", label: "Urmăritori" },
-            { value: "156", label: "Postări" },
-            { value: "3", label: "Pachete" },
-            { value: "100%", label: "Storytelling" },
+            { value: "5.2K+", label: t.stats.followers },
+            { value: "156", label: t.stats.posts },
+            { value: "3", label: t.stats.packages },
+            { value: "100%", label: t.stats.storytelling },
           ].map((stat) => (
             <div key={stat.label} className="text-center">
               <div className="font-display text-2xl md:text-3xl text-[#4a90d9]">{stat.value}</div>
